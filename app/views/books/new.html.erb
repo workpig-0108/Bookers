@@ -1,0 +1,17 @@
+<h4 class=b>New book</h4>
+
+<%= form_for(@book) do |f| %>
+
+    <h6 class=b>Title</h6>
+    <%= f.text_field :title %>
+
+    <h6 class=b>Body</h6>
+    <%= f.text_area :body %>
+
+    <%= f.submit 'createbox' %>
+
+    <br>
+    <br>
+    top
+
+<% end %>

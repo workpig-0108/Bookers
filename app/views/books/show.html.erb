@@ -1,0 +1,9 @@
+<%= flash[:complete] %>
+
+<h6>Title:<%= @book.title %></h6>
+
+
+<h6>Body:<%= @book.body %></h6>
+
+
+<%= link_to "edit", edit_book_path %>|<%= link_to "back", books_path %>
